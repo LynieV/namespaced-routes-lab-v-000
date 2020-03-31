@@ -11,7 +11,7 @@ class ArtistsController < ApplicationController
     if
       @artist = Artist.new
     else
-      
+
     end
   end
 
