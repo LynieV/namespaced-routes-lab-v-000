@@ -8,7 +8,11 @@ class ArtistsController < ApplicationController
   end
 
   def new
-    @artist = Artist.new
+    if
+      @artist = Artist.new
+    else
+      
+    end
   end
 
   def create
